@@ -34,7 +34,7 @@ namespace C43_G05_LINQ02
             // -Common LINQ Operations:
             //var numbers = new[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
-            //// Filtering
+            //// Filtering 
             //var evenNumbers = numbers.Where(n => n % 2 == 0);
 
             //// Ordering
@@ -56,8 +56,36 @@ namespace C43_G05_LINQ02
 
             //Immediate Execution(Eager Evaluation): These operations produce results immediately.They iterate over the source sequence and return a new value or perform a side effect.
 
+            #region Filteration Operators - where / OfType
 
+            #endregion
+            #region Transformation Operators - Select / SelectMany
 
+            #endregion
+            #region Ordering Operators - OrderBy 
+
+            #endregion
+            #region Elements Operators 
+
+            #endregion
+            #region Aggregate Operators - Count - Sum - Min - Max - Average
+
+            #endregion
+            #region Casting Operators 
+
+            #endregion
+            #region Generation Operators 
+
+            #endregion
+            #region Set Operators - Union / Intersect / Except
+
+            #endregion
+            #region Quantifiers Operators - Any / All / Contains / SequenceEqual
+
+            #endregion
+            #region Zipping Operators - Zip
+
+            #endregion
             //+++++++++++++++++++  breakdown of common LINQ operations and their execution categories:
 
 
